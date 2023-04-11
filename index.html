@@ -14,8 +14,12 @@
   <link href="assets/img/sunflower.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,7 +63,7 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bi bi-house"></i> <span>Home</span></a></li>
+          <li><a href="#glance" class="nav-link scrollto active"><i class="bi bi-house"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="portfolio-details.html" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
@@ -82,27 +86,27 @@
     <!-- ======= Portfolio Section ======= -->
   
 
-        <section class="section site-portfolio">
+        <section class="section site-portfolio" id="glance">
           <div class="container">
             <div class="row mb-5 align-items-center">
               <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-                <h2>Personal portfolio</h2>
+                <h2>At a glance</h2>
                <!--  <p class="mb-0">Descrizione varia Creative &amp; Professional Graphics Designer</p> -->
               </div>
               <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
                 <div id="filters" class="filters">
                   <a href="#" data-filter="*" class="active">All</a>
-                  <a href="#" data-filter=".branding">3D</a>
-                  <a href="#" data-filter=".web">Coding</a>
+                  <a href="#" data-filter=".tredi">3D</a>
+                  <a href="#" data-filter=".coding">Coding</a>
                   <a href="#" data-filter=".design">Design</a>
-                  <a href="#" data-filter=".photography">Music</a>
-                  <a href="#" data-filter=".photography">Video</a>
-                  <a href="#" data-filter=".branding">Other</a>
+                  <a href="#" data-filter=".music">Music</a>
+                  <a href="#" data-filter=".video">Video</a>
+                  <a href="#" data-filter=".other">Other</a>
                 </div>
               </div>
             </div>
             <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-              <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item design other col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#uno" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Building Social Cohesion</h3>
@@ -111,16 +115,16 @@
                   <img src="assets/img/socialcohesion.png" width="100%" class="img-fluid" alt="We will Rock and Blues" role="img">
                 </a>
               </div>
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item tredi col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#due" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>3D modelling</h3>
-                    <span>Blenders</span>
+                    <span>Blender</span>
                   </div>
                   <img src="assets/img/3dart.png" width="100%" class="img-fluid" alt="We will Rock and Blues" role="img">
                 </a>
               </div>
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item tredi col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#tre" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Pop-up VR museum</h3>
@@ -130,7 +134,7 @@
                 </a>
               </div>
               
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item coding design col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#quattro" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Typographic and layout styles</h3>
@@ -139,7 +143,7 @@
                   <img src="assets/img/css.png" width="100%" class="img-fluid" alt="We will Rock and Blues" role="img">
                 </a>
               </div>
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item coding col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#cinque" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Impact factor</h3>
@@ -148,7 +152,7 @@
                   <img src="assets/img/impactfactor.png" width="100%" class="img-fluid" alt="We will Rock and Blues" role="img">
                 </a>
               </div>
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item coding col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#sei" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>"Nel sogno"</h3>
@@ -158,7 +162,7 @@
                 </a>
               </div>
 
-              <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item coding col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#sette" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Rethinking a website</h3>
@@ -178,9 +182,7 @@
                 </a>
               </div>
               
-              
-
-              <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item music col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#dieci" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Music analysis</h3>
@@ -190,7 +192,7 @@
                 </a>
               </div>
 
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item other music col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#undici" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>We will Rock and Blues</h3>
@@ -200,7 +202,7 @@
                 </a>
               </div>
               
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item music col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#dodici" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Music</h3>
@@ -209,7 +211,7 @@
                   <img src="assets/img/music.jpg" width="100%" class="img-fluid" alt="We will Rock and Blues" role="img">
                 </a>
               </div>
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item music col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#tredici" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Carvel Cakes</h3>
@@ -219,7 +221,7 @@
                 </a>
               </div>
               
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#quattordici" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Fallout: New Vegas</h3>
@@ -229,7 +231,7 @@
                 </a>
               </div>
               
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item video col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#quattordici" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Coincidentally</h3>
@@ -239,7 +241,7 @@
                 </a>
               </div>
 
-              <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
                 <a href="portfolio-details.html#quindici" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Foodata</h3>
@@ -281,108 +283,52 @@
             <img src="assets/img/profile.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Vanessa Bonanno</h3>
-            <!-- <h3>UX Designer &amp; Web Developer.</h3> -->
-            <p class="fst-italic">
-              
-            </p>
-            <div class="row">
+
+            <div class="row mt-5">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 December 1996</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>vanessa.bonanno2@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Basiliano, UD, Italy</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Web page:</strong> <span><a href="https://www.linkedin.com/in/vanessa-bonanno-2a1516158/">LinkedIn</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master Degree in Digital Humanities</span></li>
+                  <li class="title">VANESSA BONANNO</li>
+                  <li><i class="bi bi-dash"></i> <strong>Birthday:</strong> <span>2 December 1996</span></li>
+                  <li><i class="bi bi-dash"></i> <strong>E-mail:</strong> <span>vanessa.bonanno2@gmail.com</span></li>
+                  <li><i class="bi bi-dash"></i> <strong>City:</strong> <span>Basiliano, UD, Italy</span></li>
+                  <li><i class="bi bi-dash"></i> <strong>Studies:</strong> <span>Master Degree in Digital Humanities</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li class="text-muted">FOREIGN LANGUAGES SKILLS</li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Italian:</strong> <span>Mother tongue</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>English:</strong> <span>Good</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>French:</strong> <span>Good</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>German:</strong> <span>Limited</span></li>
+                  <li class="title">LANGUAGES SKILLS</li>
+                  <li><i class="bi bi-dash"></i> <strong>Italian:</strong> <span>Mother tongue</span></li>
+                  <li><i class="bi bi-dash"></i> <strong>English:</strong> <span>Good</span></li>
+                  <li><i class="bi bi-dash"></i> <strong>French:</strong> <span>Good</span></li>
+                  <li><i class="bi bi-dash"></i> <strong>German:</strong> <span>Limited</span></li>
                 </ul>
-
-                <ul>
-                  <li class="text-muted"> DIGITAL COMPETENCES</li>
-
-                    <li><i class="bi bi-chevron-right"></i><strong>Information processing:</strong> <span>Proficient user</span></li>
-                    <li><i class="bi bi-chevron-right"></i><strong>Communication:</strong> <span>Proficient user</span></li>
-                    <li><i class="bi bi-chevron-right"></i><strong>Content creation:</strong> <span>Proficient user</span></li>
-                    <li><i class="bi bi-chevron-right"></i><strong>Problem solving:</strong> <span>Proficient user</span></li>
-
-                </ul>
-
-
               </div>
             </div>
-            
+            <div class="row mt-5">
+              <div class="col-lg-6">
+                <ul>
+                  <li class="title"> DIGITAL COMPETENCES</li>
+                    <li><i class="bi bi-dash"></i><strong>Information processing:</strong> <span>Proficient user</span></li>
+                    <li><i class="bi bi-dash"></i><strong>Communication:</strong> <span>Proficient user</span></li>
+                    <li><i class="bi bi-dash"></i><strong>Content creation:</strong> <span>Proficient user</span></li>
+                    <li><i class="bi bi-dash"></i><strong>Problem solving:</strong> <span>Proficient user</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li class="title"> OTHER COMPETENCES</li>
+                    <li><i class="bi bi-dash"></i><strong>Ability to adapt to multicultural environments</strong></li>
+                    <li><i class="bi bi-dash"></i><strong>Good communication skills</strong></li>
+                    <li><i class="bi bi-dash"></i><strong>Attention to details and aesthetics</strong></li>
+                    <li><i class="bi bi-dash"></i><strong>Flexibility</strong></li>
+                  </ul>
+                </div>     
+              </div>
+            </div>
           </div>
-
-
-          <div class="col-lg-12">
-            <p>
-              
-            </p>
-
-          </div>
-          
         </div>
-
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Take a look at my projects at the <a href="portfolio-details.html">dedicated page</a>!</p>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-brush"></i>
-              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Fields</strong> of interest</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> completed</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-music-note-list"></i>
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Songs</strong> (original and cover)</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Organisation</strong> of events</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    
-   <!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -396,8 +342,32 @@
             Recently I approached VR technology and I am studying 3D creation tools and 3d modelling on my free time.</p>
         </div>
 
-        <div class="row skills-content">
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="list-unstyled list-line mb-5">
+                <li><i class="bi bi-dash"></i> <strong>HTML</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>CSS</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>PYTHON</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>JavaScript</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>PHP</strong></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-unstyled list-line mb-5">
+                <li><i class="bi bi-dash"></i> <strong>DaVinci Resolve</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>Freehand drawing</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>Wireframes</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>Photo editing</strong></li>
+                <li><i class="bi bi-dash"></i> <strong>Audio editing</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
+       
+       <!-- Old one:
+        <div class="row skills-content">
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
@@ -478,7 +448,7 @@
                 <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
+        -->
             
             
             
@@ -530,12 +500,12 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>..</p>
+          <p></p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Anagraphic</h3>
+            <h3 class="resume-title">Personal data</h3>
             <div class="resume-item pb-0">
               <h4>Vanessa Bonanno</h4>
               <p><em></em></p>
@@ -741,6 +711,59 @@
     </section>    
     
     End Contact Section -->
+
+
+
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Take a look at my projects at the <a href="portfolio-details.html">dedicated page</a>!</p>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-brush"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Fields</strong> of interest</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong></p>
+            </div>
+          </div>
+
+          <!-- 
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-music-note-list"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>something</strong> (something)</p>
+            </div>
+          </div> -->
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Organisation</strong> of events</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+   <!-- End Facts Section -->
 
   </main><!-- End #main -->
 
