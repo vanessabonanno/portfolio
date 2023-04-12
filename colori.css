@@ -34,3 +34,58 @@ b {
     ); 
     
 }
+
+
+<div class="dropdown">
+  <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    qualcosa
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <a class="dropdown-item" href="#">Building Social Cohesion</a>
+  <a class="dropdown-item" href="#">Digital heritage study</a>
+
+  <a class="dropdown-item" href="#">3D modelling</a>
+  <a class="dropdown-item" href="#">Blender</a>
+
+  <a class="dropdown-item" href="#">Pop-up VR museum</a>
+  <a class="dropdown-item" href="#">3D scannings</a>
+
+  <a class="dropdown-item" href="#">Typographic and layout styles</a>
+  <a class="dropdown-item" href="#">Web design</a>
+
+  <a class="dropdown-item" href="#">Impact factor</a>
+  <a class="dropdown-item" href="#">Python coding</a>
+
+  <a class="dropdown-item" href="#">"Nel sogno"</a>
+  <a class="dropdown-item" href="#">XML encoding</a>
+
+  <a class="dropdown-item" href="#">Rethinking a website</a>
+  <a class="dropdown-item" href="#">UX study</a>
+
+  <a class="dropdown-item" href="#">Flyers, posters, reports</a>
+  <a class="dropdown-item" href="#">Graphics</a>
+
+  <a class="dropdown-item" href="#">Music analysis</a>
+  <a class="dropdown-item" href="#">"Per un amico" study</a>
+
+  <a class="dropdown-item" href="#">We will Rock and Blues</a>
+  <a class="dropdown-item" href="#">Music festival</a>
+
+  <a class="dropdown-item" href="#">Music</a>
+  <a class="dropdown-item" href="#">Personal stuff and covers</a>
+
+  <a class="dropdown-item" href="#">Carvel Cakes</a>
+  <a class="dropdown-item" href="#">Band</a>
+
+  <a class="dropdown-item" href="#">Fallout: New Vegas</a>
+  <a class="dropdown-item" href="#">Network analysis</a>
+
+  <a class="dropdown-item" href="#">Coincidentally</a>
+  <a class="dropdown-item" href="#">Short movie</a>
+
+  <a class="dropdown-item" href="#">Foodata</a>
+  <a class="dropdown-item" href="#">Exploring datasets</a>
+  </div>
+</div>
+                    

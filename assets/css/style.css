@@ -892,9 +892,9 @@ background-color: #CEDFF5;
 #top-and-bottom::before {
   content:'';
   position: absolute;
-  background-color: #9DC3F5;
+  background-color: #cedff5c5;
   width: 30%;
-  height: 3px;
+  height: 2px;
   top: -1em;
   left:0;
 }
@@ -903,9 +903,9 @@ background-color: #CEDFF5;
 #top-and-bottom::after {
   content:'';
   position: absolute;
-  background-color: #9DC3F5;
+  background-color: #CEDFF5c5;
   width: 30%;
-  height: 3px;
+  height: 2px;
   bottom: -1em;
   left:0;
 }
