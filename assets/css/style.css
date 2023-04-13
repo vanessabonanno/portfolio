@@ -12,18 +12,22 @@
 body {
   font-family: 'Cousine', monospace;
   color: #283F5C;
-  cursor: url("aero_arrow__pink.cur"), auto;
+  cursor: url("cursor/aero_arrow__pink.cur"), auto;
 }
 
 a {
   color: #283F5C;
   text-decoration: underline;
-  cursor: url("aero_link__pink.cur"), auto;
+  cursor: url("cursor/aero_link__pink.cur"), auto;
 }
 
 a:hover {
   color: #5b7da8;
   text-decoration: underline;
+}
+
+.nav-link {
+  cursor: url("cursor/aero_link__pink.cur"), auto;
 }
 
 ::-moz-selection {   /* Code for Firefox */
@@ -93,7 +97,7 @@ h6 {
   padding: 0 15px;
   overflow-y: auto;
   /* gradient animation */
-  background: linear-gradient(-45deg, #A86C93ec, #5b7da8ec, #152231ec); 
+  background: linear-gradient(-45deg, #F5B5DFec, #5b7da8ec, #152231ec); 
 
   /*background: linear-gradient(-180deg, #3f5775e2, #5b7ca8e2, #cedff5e9);*/
 
@@ -672,7 +676,7 @@ section {
 
 .resume .resume-title {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 550;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #283F5C;
@@ -685,11 +689,10 @@ section {
   position: relative;
 }
 
-
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 450;
   text-transform: uppercase;
   font-family: 'Cousine', monospace;
   color: #283F5C;
@@ -1210,7 +1213,9 @@ section {
 */
 
 .breadcrumbs p {
+  margin-top: 14px;
   font-size: 14px;
+  font-weight: 300;
 }
 
 .breadcrumbs ol {
