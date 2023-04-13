@@ -64,10 +64,10 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="index.html" class="nav-link scrollto active"><i class="bi bi-house"></i> <span>Home</span></a></li>
+          <li><a href="index.html" class="nav-link scrollto"><i class="bi bi-house"></i> <span>Home</span></a></li>
           <li><a href="index.html#about" class="nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a></li>
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto active"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -88,39 +88,106 @@
           </ol>
         </div>
 
+        <p>Here you can find the projects I made in the last years at university or during my spare time.</p>
+
+
       </div>
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
+          
+        <!-- INDEX -->
+        <div class="row row-cols-auto indice">
+          
+          <div class="dropdown col">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Design
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#sc">Building Social Cohesion (Digital heritage study)</a></li>
+                <li><a class="dropdown-item" href="#ux">Rethinking a website (UX study)</a></li>
+                <li><a class="dropdown-item" href="#graphics">Flyers, posters, reports (Graphics)</a></li>
+            </ul>
+          </div>
+          
+          <div class="dropdown col">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              3D
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#modelling">3D modelling (Blender)</a></li>
+                <li><a class="dropdown-item" href="#vr">Pop-up VR museum (3D scannings)</a></li>
+            </ul>
+          </div>
+        
+          <div class="dropdown col">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Coding
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#python">Impact factor (Python)</a></li>
+                <li><a class="dropdown-item" href="#nostalgia">Typographic and layout styles (HTML, CSS)</a></li>
+                <li><a class="dropdown-item" href="#cml">"Nel sogno" (XML)</a></li>
+            </ul>
+          </div>
+        
+          <div class="dropdown col">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Music
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#amico">"Per un amico" study (Music analysis)</a></li>
+                <li><a class="dropdown-item" href="#wewill">We will Rock and Blues (Music festival)</a></li>
+                <li><a class="dropdown-item" href="#carvel">Carvel Cakes (band)</a></li>
+                <li><a class="dropdown-item" href="#performance">Performance and covers</a></li>
+            </ul>
+          </div>
+          
+          <div class="dropdown col">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Video
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#movie">Coincidentally (Short movie)</a></li>
+            </ul>
+          </div>
+          <div class="dropdown col">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Other
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#fnv">Fallout: New Vegas (Network analysis)</a></li>
+                <li><a class="dropdown-item" href="#food">Foodata (Exploring datasets)</a></li>
+            </ul>
+          </div>
+      </div>
+
 
         <!-- inizio row -->
         <div class="row gy-4">
-          
-         <section>
-          <!-- 0. Social Cohesion study -->
-          <div class="site-section pb-0">
-            <div class="container">
 
-                 <!-- INDEX -->
+          <!--
           <div >
             <div>
               <a href="#" data-filter=".tredi">3D</a>
+
               <a href="#" data-filter=".coding">Coding</a>
               <a href="#" data-filter=".design">Design</a>
               <a href="#" data-filter=".music">Music</a>
               <a href="#" data-filter=".video">Video</a>
               <a href="#" data-filter=".other">Other</a>
             </div>
-          </div>
+          </div>  -->
+          
+         <section class="scuro">
+          <!-- Social Cohesion study -->
+          <div class="site-section pb-0">
+            <div class="container">
 
               <div class="row align-items-stretch">
-
-             
-
-
-                <div id="uno" class="col-lg-6">
+                <div id="sc" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -141,11 +208,9 @@
                   </div>
                 </div>
 
-
-                
                 <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
                   <div class="sticky-content">
-                    <h3 class="h3">Social Cohesion study</h3>
+                    <h3 class="h3">Building Social Cohesion</h3>
                     <p class="mb-4"><span class="text-muted">Digital Heritage and Multimedia</span></p>
     
                     <ul class="list-unstyled list-line mb-5">
@@ -164,14 +229,12 @@
   
                         <li>qualitative and quantitative analysis of data collected</li>
                       
-                    </ul>
-
-                    
+                    </ul>                   
                   </div>
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom" data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
@@ -185,13 +248,138 @@
           </div>
         </section> 
 
-      <section> 
+        <section class="chiaro">
+          <!-- 7. UX analysis -->
+          <div class="site-section pb-0">
+            <div class="container">
+              <div class="row align-items-stretch">
+
+                <div id="ux" class="col-lg-6">
+                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper align-items-center">
+                      <div class="swiper-slide">
+                        <img src="assets/img/vaay/1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/vaay/2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/vaay/3.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                  <div class="sticky-content">
+                    <h3 class="h3">Rethinking a website</h3>
+                    <p class="mb-4"><span class="text-muted">UX</span></p>
+    
+                    <!--<h4 class="h4 mb-6">What I did</h4>
+                    <ul class="list-line list-line mb-5">
+                      <li>..</li> -->
+                    </ul>
+
+                    <ul class="list-unstyled list-line mb-5">
+                      <li><strong>Category</strong>: Final Project for "User Experience" (MA)</li>
+                      <li><strong>Keywords</strong>: UX, UI, user segmentation, user testing, personas, scenarios, hyper-personalisation, design, info architecture, wireframes, interaction design</li>
+                      <li><strong>Project date</strong>: 2022</li>
+                      <li><strong>Link</strong>: <a href="https://github.com/vanessabonanno/Projects/blob/main/User%20Experience/Vaay_project_work.pdf">Read "Vaay project work"</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
+                <h4>Project  description</h4>
+                <p>
+                  This is the final project "Different twins" for the course User Experience of DHDK, University of Bologna.
+                  The main aim of the project is to use the interface to trasmit two separate (and complementary) messages at the same time. «Different twins is the design of a web site / web application / mobile app / desktop application meant to allow an organization, company, or community to deliver two different, complementary messages from the same interface.»
+                  </p>
+                  <p>
+                  Our solution was to integrate a service of hyper-personalisation that will support the consumers’ buying experience,
+                  guiding the users in the selection of the best formula and products based on their needs. Hyperpersonalisation
+                  is an extension of standard personalisation. Whereas personalisation entails a thorough knowledge and
+                  use of customer personas, data, and analytics, hyper-personalisation makes use of real-time data and artificial
+                  intelligence to create even more unique buyer experiences. These personalised experiences may be used to bring up
+                  relevant contents, products, or services that depend on the current buyer behaviour.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="scuro">
+          <!-- 8.  graphics -->
+          <div class="site-section pb-0">
+            <div class="container">
+              <div class="row align-items-stretch">
+
+                <div id="graphics" class="col-lg-6">
+                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper align-items-center">
+      
+                      <div class="swiper-slide">
+                        <img src="assets/img/graphics/1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/graphics/2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/graphics/3.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/graphics/4.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                  <div class="sticky-content">
+                    <h3 class="h3">Graphics</h3>
+                    <p class="mb-4"><span class="text-muted">Design</span></p>
+    
+                    <!--<h4 class="h4 mb-6">What I did</h4>
+                    <ul class="list-line list-line mb-5">
+                      <li>..</li> -->
+
+                    </ul>
+
+                    <ul class="list-unstyled list-line mb-5">
+                      <li><strong>Category</strong>: Final dissertation (MA); Research study</li>
+                      <li><strong>Keywords</strong>: graphics, design, Photoshop, Adobe Suite, Canva</li>
+                      <li><strong>Project date</strong>: 2019 - ongoing</li>
+                      <li><strong>Link</strong>: <a href="https://github.com/vanessabonanno/Projects/tree/main/Design%20of%20a%20report">Repository</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
+                <h4>Project  description</h4>
+                <p>
+                  Graphics of documents, reports, flyers, posters of events.       
+                </p>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      <section class="chiaro"> 
           <!-- 2.  3D -->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="due" class="col-lg-6">
+                <div id="modelling" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -230,7 +418,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom" data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
@@ -243,14 +431,13 @@
           </div>
         </section> 
 
-        <section>
-
+        <section class="scuro">
           <!-- 3. VR -->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="tre" class="col-lg-6">
+                <div id="vr" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -295,26 +482,77 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
                   Aalto University is designing and creating a Pop-up VR Museum, together with Design Museum Helsinki. This museum will travel to diverse venues throughout the country and will be also accessible online using portable VR headsets. In our case study, co-design workshops will be conducted with curators from Design Museum, mediators from Helsinki City and end-user communities such as for example seniors residing in Helsinki’s Kustaankartano. 
                 </p>
                 <p>
-                  In order to integrate SPICE’s citizen curation methods and tools into the Pop-Up VR Museum, our workshop activities will also collect interpretations and narratives about design heritage objects. Using diverse immersive media technologies and through the Pop-Up VR Museum we intend to provide novel multimodal engagements with digitality that promote accessibility, inclusiveness and social cohesion.               
+                  In order to integrate SPICE's citizen curation methods and tools into the Pop-Up VR Museum, our workshop activities will also collect interpretations and narratives about design heritage objects. Using diverse immersive media technologies and through the Pop-Up VR Museum we intend to provide novel multimodal engagements with digitality that promote accessibility, inclusiveness and social cohesion.               
                 </p>
               </div>
             </div>
           </div>
         </section> 
 
+          <section class="chiaro">
+          <!-- 5. Python -->
+          <div class="site-section pb-0">
+            <div class="container">
+              <div class="row align-items-stretch">
+
+                <div id="python" class="col-lg-6">
+                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper align-items-center">
+                      <div class="swiper-slide">
+                        <img src="assets/img/impactfactor/1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                  <div class="sticky-content">
+                    <h3 class="h3">Bibliometrics engine</h3>
+                    <p class="mb-4"><span class="text-muted">Python coding</span></p>
+    
+                    <!--<h4 class="h4 mb-6">What I did</h4>
+                    <ul class="list-line list-line mb-5">
+                      <li>...</li>-->
+                    </ul>
+
+                    <ul class="list-unstyled list-line mb-5">
+                      <li><strong>Category</strong>: Final Project for "Computational thinking" (MA)</li>
+                      <li><strong>Keywords</strong>: python, impactfactor, coding, functions</li>
+                      <li><strong>Project date</strong>: 2021</li>
+                      <li><strong>Link</strong>: <a href="https://github.com/vanessabonanno/Projects/tree/main/Computational%20thinking">Repository</a>; <a href="https://comp-think.github.io/2020-2021/slides/14%20-%20Project.html#/1">Project specs</a>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
+                <h4>Project  description</h4>
+                <p>
+                  This is the final project "Bibliometrics engine" for the course Computational Thinking of DHDK, University of Bologna.
+                </p>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="scuro">
           <!-- 4. Website, HTML, CSS -->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="quattro" class="col-lg-6">
+                <div id="nostalgia" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
                       <div class="swiper-slide">
@@ -353,7 +591,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
@@ -366,61 +604,15 @@
               </div>
             </div>
           </div>
+        </section>
 
-          <!-- 5. Python -->
-          <div class="site-section pb-0">
-            <div class="container">
-              <div class="row align-items-stretch">
-
-                <div id="cinque" class="col-lg-6">
-                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper align-items-center">
-                      <div class="swiper-slide">
-                        <img src="assets/img/impactfactor/1.png" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                  <div class="sticky-content">
-                    <h3 class="h3">Bibliometrics engine</h3>
-                    <p class="mb-4"><span class="text-muted">Python coding</span></p>
-    
-                    <!--<h4 class="h4 mb-6">What I did</h4>
-                    <ul class="list-line list-line mb-5">
-                      <li>...</li>-->
-                    </ul>
-
-                    <ul class="list-unstyled list-line mb-5">
-                      <li><strong>Category</strong>: Final Project for "Computational thinking" (MA)</li>
-                      <li><strong>Keywords</strong>: python, impactfactor, coding, functions</li>
-                      <li><strong>Project date</strong>: 2021</li>
-                      <li><strong>Link</strong>: <a href="https://github.com/vanessabonanno/Projects/tree/main/Computational%20thinking">Repository</a>; <a href="https://comp-think.github.io/2020-2021/slides/14%20-%20Project.html#/1">Project specs</a>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="containter">
-              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
-                <h4>Project  description</h4>
-                <p>
-                  This is the final project "Bibliometrics engine" for the course Computational Thinking of DHDK, University of Bologna.
-                </p>
-                <p>
-                </p>
-              </div>
-            </div>
-          </div>
-
+          <section class="chiaro">
           <!-- 6. xml -->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="sei" class="col-lg-6">
+                <div id="xml" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -444,9 +636,9 @@
                     <h3 class="h3">"Nel Sogno" </h3>
                     <p class="mb-4"><span class="text-muted">Text analysis</span></p>
     
-                    <!--<!--<h4 class="h4 mb-6">What I did</h4>
+                    <!--<h4 class="h4 mb-6">What I did</h4>
                     <ul class="list-line list-line mb-5">
-                      <li>..</li> -->-->
+                      <li>..</li> -->
                     </ul>
 
                     <ul class="list-unstyled list-line mb-5">
@@ -459,7 +651,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
@@ -471,131 +663,15 @@
               </div>
             </div>
           </div>
+        </section>
 
-          <!-- 7. UX analysis -->
-          <div class="site-section pb-0">
-            <div class="container">
-              <div class="row align-items-stretch">
-
-                <div id="sette" class="col-lg-6">
-                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper align-items-center">
-                      <div class="swiper-slide">
-                        <img src="assets/img/vaay/1.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/vaay/2.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/vaay/3.png" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                  <div class="sticky-content">
-                    <h3 class="h3">Rethinking a website</h3>
-                    <p class="mb-4"><span class="text-muted">UX</span></p>
-    
-                    <!--<h4 class="h4 mb-6">What I did</h4>
-                    <ul class="list-line list-line mb-5">
-                      <li>..</li> -->
-                    </ul>
-
-                    <ul class="list-unstyled list-line mb-5">
-                      <li><strong>Category</strong>: Final Project for "User Experience" (MA)</li>
-                      <li><strong>Keywords</strong>: UX, UI, user segmentation, user testing, personas, scenarios, hyper-personalisation, design, info architecture, wireframes, interaction design</li>
-                      <li><strong>Project date</strong>: 2022</li>
-                      <li><strong>Link</strong>: <a href="https://github.com/vanessabonanno/Projects/blob/main/User%20Experience/Vaay_project_work.pdf">Read "Vaay project work"</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="containter">
-              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
-                <h4>Project  description</h4>
-                <p>
-                  This is the final project "Different twins" for the course User Experience of DHDK, University of Bologna.
-                  The main aim of the project is to use the interface to trasmit two separate (and complementary) messages at the same time. «Different twins is the design of a web site / web application / mobile app / desktop application meant to allow an organization, company, or community to deliver two different, complementary messages from the same interface.»
-                  </p>
-                  <p>
-                  Our solution was to integrate a service of hyper-personalisation that will support the consumers’ buying experience,
-                  guiding the users in the selection of the best formula and products based on their needs. Hyperpersonalisation
-                  is an extension of standard personalisation. Whereas personalisation entails a thorough knowledge and
-                  use of customer personas, data, and analytics, hyper-personalisation makes use of real-time data and artificial
-                  intelligence to create even more unique buyer experiences. These personalised experiences may be used to bring up
-                  relevant contents, products, or services that depend on the current buyer behaviour.
-                  </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- 8.  graphics -->
-          <div class="site-section pb-0">
-            <div class="container">
-              <div class="row align-items-stretch">
-
-                <div id="otto" class="col-lg-6">
-                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper align-items-center">
-      
-                      <div class="swiper-slide">
-                        <img src="assets/img/graphics/1.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/graphics/2.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/graphics/3.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/graphics/4.png" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                  <div class="sticky-content">
-                    <h3 class="h3">Graphics</h3>
-                    <p class="mb-4"><span class="text-muted">Design</span></p>
-    
-                    <!--<!--<h4 class="h4 mb-6">What I did</h4>
-                    <ul class="list-line list-line mb-5">
-                      <li>..</li> --> -->
-                    </ul>
-
-                    <ul class="list-unstyled list-line mb-5">
-                      <li><strong>Category</strong>: Final dissertation (MA); Research study</li>
-                      <li><strong>Keywords</strong>: graphics, design, Photoshop, Adobe Suite, Canva</li>
-                      <li><strong>Project date</strong>: 2019 - ongoing</li>
-                      <li><strong>Link</strong>: <a href="https://github.com/vanessabonanno/Projects/tree/main/Design%20of%20a%20report">Repository</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="containter">
-              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
-                <h4>Project  description</h4>
-                <p>
-                  Graphics of documents, reports, flyers, posters of events                </p>
-                <p>
-                </p>
-              </div>
-            </div>
-          </div>
-
+          <section class="scuro">
           <!-- 9. Per un amico study -->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="nove" class="col-lg-6">
+                <div id="amico" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -621,9 +697,10 @@
                     <h3 class="h3">Il rock progressivo in Italia: storia, analisi e organologia elettronica di “Per Un Amico”</h3>
                     <p class="mb-4"><span class="text-muted">Musica elettronica</span></p>
     
-                    <!--<!--<h4 class="h4 mb-6">What I did</h4>
+                    <!--<h4 class="h4 mb-6">What I did</h4>
                     <ul class="list-line list-line mb-5">
-                      <li>..</li> --> -->
+                      <li>..</li> --> 
+
                     </ul>
 
                     <ul class="list-unstyled list-line mb-5">
@@ -636,7 +713,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
@@ -652,13 +729,15 @@
               </div>
             </div>
           </div>
+        </section>
 
+          <section class="chiaro">
           <!-- 10. we will rock -->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="dieci" class="col-lg-6">
+                <div id="wewill" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -697,8 +776,6 @@
                     <h3 class="h3">We will Rock and Blues</h3>
                     <p class="mb-4"><span class="text-muted">Music festival</span></p>
     
-                    
-
                     <ul class="list-unstyled list-line mb-5">
                       <li><strong>Name</strong>: We will Rock and Blues</li>
                       <li><strong>Category</strong>: Music festival</li>
@@ -707,20 +784,20 @@
                       <li><strong>Past editions</strong>: 2017, 2018, 2019, 2021, 2022</li>
                       <li><strong>Location</strong>: Via Principe di Piemonte 91, Bressa di Campoformido, (UD), Italy</li>
                       <li><strong>By</strong>: Galdino Zuliani, We will Rock and Blues team, Pro Loco Bressa</li>
-                      <li><strong>Attendance</strong>: ADD (estimate, 2022 edition)</li>
+                      <li><strong>Attendance</strong>: 500 people (estimate, 2022 edition)</li>
                       <li><strong>Social</strong>: <a href="https://www.facebook.com/wewillrockblues"><i class="bi bi-facebook"></i></a> <a href="https://www.instagram.com/wewillrockblues/"><i class="bi bi-instagram"></i></a></li>
                     </ul>
 
-                    <!--<!--<h4 class="h4 mb-6">What I did</h4>
+                    <!--<h4 class="h4 mb-6">What I did</h4>
                     <ul class="list-line list-line mb-5">
-                      <li>..</li> --> -->
+                      <li>..</li> -->
                     </ul>
 
                   </div>
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
@@ -740,71 +817,15 @@
               </div>
             </div>
           </div>
+        </section>
 
-          <!-- 11. music making -->
-          <div class="site-section pb-0">
-            <div class="container">
-              <div class="row align-items-stretch">
-
-                <div id="undici" class="col-lg-6">
-                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper align-items-center">
-                      <div class="swiper-slide">
-                        <img src="assets/img/canto/1.png" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                  <div class="sticky-content">
-                    <h3 class="h3">Music making</h3>
-                    <p class="mb-4"><span class="text-muted">Performance</span></p>
-    
-                    <h4 class="h4 mb-6">What I did</h4>
-                    <ul class="list-line list-line mb-5">
-                      <li>And you and I (Yes)</li>
-                      <li>Needles and pins (Ramones)</li>
-                      <li>This past presence (Wobbler)</li>
-                      <li>Think of me with kindness (Gentle Giant)</li>
-                      <li>Tempo</li>
-                      <li>Sky under the Sea</li>
-                      <li>Title</li> 
-                    </ul>
-
-                    <ul class="list-unstyled list-line mb-5">
-                      <li><strong>Category</strong>: Own music, covers</li>
-                      <li><strong>Keywords</strong>: singing, playing, guitar, bass, drums, keyboard</li>
-                      <li><strong>Project date</strong>: 2016 - ongoing</li>
-                      <li><strong>Link</strong>: <a href="https://drive.google.com/drive/folders/13kkeDRAejQHgzuvB7vxPEc57f0XjtRQ0?usp=sharing">Repository</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="containter">
-              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
-                <h4>Project  description</h4>
-                <p>
-                  My version of songs by famous artists or bands plus some original pieces.
-                  They are drafts. My aim was to test my skills in recreating pieces of songs with all the instruments I can play (guitars, bass, drums, keyboards and voice). 
-                </p>
-                <p>
-                  Song list: <i>And You and I</i>, <i>Needles and pins</i>, <i>This past presence</i>, 
-                  <i>Think of me with kindness</i> (cover), <i>Tempo</i>, <i>Sky under the Sea</i>, <i>Title</i> (original)
-  
-                </p>
-              </div>
-            </div>
-          </div>
-
+          <section class="scuro">
           <!-- 12. carvel-->
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="dodici" class="col-lg-6">
+                <div id="carvel" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -853,7 +874,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5 text-center">
                 <h4>Scaletta</h4>
                 <p>
@@ -873,13 +894,135 @@
               </div>
             </div>
           </div>
+        </section>
 
+        <section class="chiaro">
+          <!-- 11. music making -->
+          <div class="site-section pb-0">
+            <div class="container">
+              <div class="row align-items-stretch">
+
+                <div id="performance" class="col-lg-6">
+                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper align-items-center">
+                      <div class="swiper-slide">
+                        <img src="assets/img/canto/1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                  <div class="sticky-content">
+                    <h3 class="h3">Music making</h3>
+                    <p class="mb-4"><span class="text-muted">Performance</span></p>
+    
+                    <h4 class="h4 mb-6">What I did</h4>
+                    <ul class="list-line list-line mb-5">
+                      <li>And you and I (Yes)</li>
+                      <li>Needles and pins (Ramones)</li>
+                      <li>This past presence (Wobbler)</li>
+                      <li>Think of me with kindness (Gentle Giant)</li>
+                      <li>Tempo</li>
+                      <li>Sky under the Sea</li>
+                      <li>Title</li> 
+                    </ul>
+
+                    <ul class="list-unstyled list-line mb-5">
+                      <li><strong>Category</strong>: Own music, covers</li>
+                      <li><strong>Keywords</strong>: singing, playing, guitar, bass, drums, keyboard</li>
+                      <li><strong>Project date</strong>: 2016 - ongoing</li>
+                      <li><strong>Link</strong>: <a href="https://drive.google.com/drive/folders/13kkeDRAejQHgzuvB7vxPEc57f0XjtRQ0?usp=sharing">Repository</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
+                <h4>Project  description</h4>
+                <p>
+                  My version of songs by famous artists or bands plus some original pieces.
+                  They are drafts. My aim was to test my skills in recreating pieces of songs with all the instruments I can play (guitars, bass, drums, keyboards and voice). 
+                </p>
+                <p>
+                  Song list: <i>And You and I</i>, <i>Needles and pins</i>, <i>This past presence</i>, 
+                  <i>Think of me with kindness</i> (cover), <i>Tempo</i>, <i>Sky under the Sea</i>, <i>Title</i> (original)
+  
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="scuro">
+          <!-- 14. short movie -->
+            <div class="site-section pb-0">
+              <div class="container">
+                <div class="row align-items-stretch">
+  
+                  <div id="movie" class="col-lg-6">
+                    <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                      <div class="swiper-wrapper align-items-center">
+        
+                        <div class="swiper-slide">
+                          <img src="assets/img/coincidentally/1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/coincidentally/2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/coincidentally/3.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/coincidentally/4.png" alt="">
+                        </div>
+                        
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                    <div class="sticky-content">
+                      <h3 class="h3">Coincidentally</h3>
+                      <p class="mb-4"><span class="text-muted">Musica elettronica</span></p>
+      
+                      <!--<h4 class="h4 mb-6">What I did</h4>
+                      <ul class="list-line list-line mb-5">
+                        <li>..</li> -->
+                      </ul>
+  
+                      <ul class="list-unstyled list-line mb-5">
+                        <li><strong>Category</strong>: Final project for "shooting and directing video" (BA)</li>
+                        <li><strong>Keywords</strong>: movie direction, video editing</li>
+                        <li><strong>Project date</strong>: 2018</li>
+                        <li><strong>Link</strong>: <a href="https://drive.google.com/file/d/1mCV4WOtusgcFdLhkJmAzw8ij8wYCeev0/view">Drive folder</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
+                  <h4>Project  description</h4>
+                  
+                  <p>
+                    <i>Coincidentally</i> short movie was created as final project for "LABORATORIO DI RIPRESA E REGIA DIGITALE", <a href="https://www.uniud.it/it/didattica/corsi/area-scientifica/scienze-matematiche-informatiche-multimediali-fisiche/laurea/scienze-tecnologie-multimediali/corso/scienze-e-tecnologie-multimediali-interclasse-l20l31">Scienze e Tecnologie Multimediali</a> BA at the University of Udine.              </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="chiaro">
            <!-- 13. fnv-->
            <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="tredici" class="col-lg-6">
+                <div id="fnv" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -920,7 +1063,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5 ">
                 <h4>Project  description</h4>
                 <p>
@@ -930,72 +1073,15 @@
               </div>
             </div>
           </div>
+        </section>
 
-        <!-- 14. short movie -->
-          <div class="site-section pb-0">
-            <div class="container">
-              <div class="row align-items-stretch">
-
-                <div id="quattordici" class="col-lg-6">
-                  <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper align-items-center">
-      
-                      <div class="swiper-slide">
-                        <img src="assets/img/coincidentally/1.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/coincidentally/2.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/coincidentally/3.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="assets/img/coincidentally/4.png" alt="">
-                      </div>
-                      
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                  <div class="sticky-content">
-                    <h3 class="h3">Coincidentally</h3>
-                    <p class="mb-4"><span class="text-muted">Musica elettronica</span></p>
-    
-                    <!--<h4 class="h4 mb-6">What I did</h4>
-                    <ul class="list-line list-line mb-5">
-                      <li>..</li> -->
-                    </ul>
-
-                    <ul class="list-unstyled list-line mb-5">
-                      <li><strong>Category</strong>: Final project for "shooting and directing video" (BA)</li>
-                      <li><strong>Keywords</strong>: movie direction, video editing</li>
-                      <li><strong>Project date</strong>: 2018</li>
-                      <li><strong>Link</strong>: <a href="https://drive.google.com/file/d/1mCV4WOtusgcFdLhkJmAzw8ij8wYCeev0/view">Drive folder</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="containter">
-              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
-                <h4>Project  description</h4>
-                
-                <p>
-                  <i>Coincidentally</i> short movie was created as final project for "LABORATORIO DI RIPRESA E REGIA DIGITALE", <a href="https://www.uniud.it/it/didattica/corsi/area-scientifica/scienze-matematiche-informatiche-multimediali-fisiche/laurea/scienze-tecnologie-multimediali/corso/scienze-e-tecnologie-multimediali-interclasse-l20l31">Scienze e Tecnologie Multimediali</a> BA at the University of Udine.              </p>
-                </p>
-              </div>
-            </div>
-          </div>
-
+          <section class="scuro">
           <!-- 15. foodata -->
-          
           <div class="site-section pb-0">
             <div class="container">
               <div class="row align-items-stretch">
 
-                <div id="quindici" class="col-lg-6">
+                <div id="food" class="col-lg-6">
                   <div  class="portfolio-details-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper align-items-center">
       
@@ -1034,7 +1120,7 @@
                 </div>
               </div>
             </div>
-            <div class="containter">
+            <div class="container">
               <div class="mb-5" id="top-and-bottom" data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 
@@ -1049,9 +1135,7 @@
               </div>
             </div>
           </div>
-
-                    
-
+          </section>
 
 
         <!-- fine row --></div>

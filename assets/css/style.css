@@ -12,18 +12,28 @@
 body {
   font-family: 'Cousine', monospace;
   color: #283F5C;
+  cursor: url("aero_arrow__pink.cur"), auto;
 }
-
-
 
 a {
   color: #283F5C;
   text-decoration: underline;
+  cursor: url("aero_link__pink.cur"), auto;
 }
 
 a:hover {
   color: #5b7da8;
   text-decoration: underline;
+}
+
+::-moz-selection {   /* Code for Firefox */
+  color: #F5B5DF;
+  background: #5b7da8;
+}
+
+::selection { /* General code */
+  color:#F5B5DF;
+  background: #5b7da8;
 }
 
 h1,
@@ -450,12 +460,16 @@ section {
   padding-bottom: 30px;
 }
 
+
+/*
 .section-title h2 {
   font-weight: 700;
   font-size: 26px;
   font-family: 'Cousine', monospace;
   color: #283F5C;
 }
+*/
+
 
 .section-title p {
   margin-bottom: 0;
@@ -473,12 +487,16 @@ section {
   color: #283F5C;
 }
 
+
+
+/*
 .about h2 {
-  font-weight: 700;
   font-size: 26px;
   font-family: 'Cousine', monospace;
   color: #283F5C;
 }
+*/
+
 
 .about .content h3 {
   font-weight: 700;
@@ -513,7 +531,7 @@ section {
 }
 
 .about p {
-  font-size: 16px; 
+  font-size: 14px; 
 }
 
 .about .title {
@@ -587,16 +605,26 @@ section {
   color: #283F5C;
 }
 
+
+.facts p {
+  font-size: 14px; 
+}
+
+
+/*
 .facts h2 {
   color: #283F5C;
 }
+*/
+
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 
 .skills {
-background-color: #CEDFF5;
+  background-color: #CEDFF5;
+  font-size: 14px; 
 }
 
 .skills .progress {
@@ -639,11 +667,12 @@ background-color: #CEDFF5;
 --------------------------------------------------------------*/
 .resume {
   background-color: #CEDFF5;
-  }
+  font-size: 14px; 
+}
 
 .resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 600;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #283F5C;
@@ -655,6 +684,7 @@ background-color: #CEDFF5;
   border-left: 2px solid #1f5297;
   position: relative;
 }
+
 
 .resume .resume-item h4 {
   line-height: 18px;
@@ -806,9 +836,32 @@ background-color: #CEDFF5;
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background-color: #283F5C;
-  color: #CEDFF5;
+  background-color: #CEDFF5;
+  color: #283F5C;
 }
+
+.portfolio-details .indice {
+  background-color: #CEDFF5;
+}
+
+
+.portfolio-details .indice a {
+  color: #283F5C;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.scuro {
+  background-color: #CEDFF5;
+  color: #283F5C;
+}
+
+.chiaro {
+  background-color: #fff;
+  color: #283F5C;
+}
+
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -822,12 +875,25 @@ background-color: #CEDFF5;
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #283F5C;
+  background-color: #CEDFF5;
   opacity: 1;
-  border: 1px solid #CEDFF5;
+  border: 1px solid #5b7da8;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+
+.portfolio-details .chiaro .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #5b7da8;
+}
+
+.portfolio-details .chiaro .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #CEDFF5;
 }
 
@@ -858,11 +924,14 @@ background-color: #CEDFF5;
   padding-top: 30px;
 }
 
+
+/*
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
+*/
 
 .portfolio-details .portfolio-description p {
   padding: 0;
@@ -876,12 +945,32 @@ background-color: #CEDFF5;
 }
 
 .portfolio-details a:hover {
-  color: #9DC3F5;
+  color: #5b7da8;
+  text-decoration: underline;
+}
+
+.scuro a {
+  color: #283F5C;
+  text-decoration: underline;
+}
+
+.scuro a:hover {
+  color: #5b7da8;
+  text-decoration: underline;
+}
+
+.chiaro a {
+  color: #283F5C;
+  text-decoration: underline;
+}
+
+.chiaro a:hover {
+  color: #5b7da8;
   text-decoration: underline;
 }
 
 
-/* bordo prima e dopo descrizione progetto*/
+/* ------ Bordo prima e dopo descrizione progetto ------ */
 .portfolio-details #top-and-bottom {
   position: relative;
   margin-top: 30px;
@@ -904,6 +993,28 @@ background-color: #CEDFF5;
   content:'';
   position: absolute;
   background-color: #CEDFF5c5;
+  width: 30%;
+  height: 2px;
+  bottom: -1em;
+  left:0;
+}
+
+/* top line scuro */
+.scuro #top-and-bottom::before {
+  content:'';
+  position: absolute;
+  background-color: #5b7ca862;
+  width: 30%;
+  height: 2px;
+  top: -1em;
+  left:0;
+}
+
+/* bottom line scuro*/
+.scuro #top-and-bottom::after {
+  content:'';
+  position: absolute;
+  background-color: #5b7da862;
   width: 30%;
   height: 2px;
   bottom: -1em;
@@ -1088,12 +1199,18 @@ background-color: #CEDFF5;
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #CEDFF5;
 }
 
+/*
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
+}
+*/
+
+.breadcrumbs p {
+  font-size: 14px;
 }
 
 .breadcrumbs ol {
@@ -1153,6 +1270,7 @@ background-color: #CEDFF5;
   padding-top: 5px;
   text-align: center;
   font-size: 10px;
+  font-weight: lighter;
   color: #9DC3F5;
 }
 
@@ -1161,6 +1279,11 @@ background-color: #CEDFF5;
   text-align: center;
   font-size: 10px;
   color: #9DC3F5;
+}
+
+#footer span {
+  font-style: italic;
+  font-weight: bolder;
 }
 
 @media (max-width: 1199px) {
