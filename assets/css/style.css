@@ -12,13 +12,11 @@
 body {
   font-family: 'Cousine', monospace;
   color: #283F5C;
-  cursor: url("cursor/aero_arrow__pink.cur"), auto;
 }
 
 a {
   color: #283F5C;
   text-decoration: underline;
-  cursor: url("cursor/aero_link__pink.cur"), auto;
 }
 
 a:hover {
@@ -27,7 +25,6 @@ a:hover {
 }
 
 .nav-link {
-  cursor: url("cursor/aero_link__pink.cur"), auto;
 }
 
 ::-moz-selection {   /* Code for Firefox */
