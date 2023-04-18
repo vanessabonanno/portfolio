@@ -128,13 +128,12 @@ h6 {
 
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: 'Cousine', monospace;
+  font-family: 'Satisfy', cursive;
 }
 
 #header .profile h1 a,
