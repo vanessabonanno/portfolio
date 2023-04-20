@@ -12,16 +12,19 @@
 body {
   font-family: 'Cousine', monospace;
   color: #283F5C;
+  cursor: url("cursor/minimal/arrow.cur"), auto;
 }
 
 a {
   color: #283F5C;
   text-decoration: underline;
+  cursor: url("cursor/minimal/link.cur"), auto;
 }
 
 a:hover {
   color: #5b7da8;
   text-decoration: underline;
+  cursor: url("cursor/minimal/link.cur"), auto;
 }
 
 .nav-link {
@@ -30,21 +33,41 @@ a:hover {
 ::-moz-selection {   /* Code for Firefox */
   color: #F5B5DF;
   background: #5b7da8;
+  cursor: url("cursor/minimal/link.cur"), auto;
 }
 
 ::selection { /* General code */
   color:#F5B5DF;
   background: #5b7da8;
+  cursor: url("cursor/minimal/link.cur"), auto;
 }
 
 h1,
-h2,
+h2
+{
+  font-family: Myfont;
+  src: url(font/Myfont.otf);
+  font-size: 45px;
+  font-weight: 700;
+}
+
 h3,
 h4,
 h5,
-h6 {
-  
+h6 
+{
+
 }
+
+
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -125,12 +148,12 @@ h6 {
 
 
 #header .profile h1 {
-  font-size: 35px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   -moz-text-align-last: center;
-  text-align-last: center;
-  font-family: 'Satisfy', cursive;
+  text-align-last: center;  
+  /*font-family: 'Satisfy', cursive;*/
 }
 
 #header .profile h1 a,
@@ -426,6 +449,8 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
     font-family: 'Cousine', monospace;
+    font-family: Myfont;
+    src: url(font/Myfont.otf);
   }
 }
 
@@ -671,11 +696,15 @@ section {
 }
 
 .resume .resume-title {
-  font-size: 22px;
-  font-weight: 550;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   color: #283F5C;
+  /*font-family: Myfont;
+  src: url(font/Myfont.otf);
+  font-size: 30px;
+  font-weight: 600;*/
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .resume .resume-item {
@@ -687,7 +716,7 @@ section {
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 450;
   text-transform: uppercase;
   font-family: 'Cousine', monospace;
@@ -696,12 +725,13 @@ section {
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 14px;
   background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  
 }
 
 .resume .resume-item ul {
@@ -864,6 +894,7 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -877,6 +908,7 @@ section {
   background-color: #CEDFF5;
   opacity: 1;
   border: 1px solid #5b7da8;
+  cursor: url("cursor/minimal/link.cur"), auto;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
@@ -890,6 +922,7 @@ section {
   background-color: #fff;
   opacity: 1;
   border: 1px solid #5b7da8;
+  cursor: url("cursor/minimal/link.cur"), auto;
 }
 
 .portfolio-details .chiaro .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
