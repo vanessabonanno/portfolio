@@ -57,7 +57,7 @@
 </head>
 
 <body>
-
+  
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -92,6 +92,7 @@
   </header><!-- End Header -->
 
   <main id="main">
+
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -312,7 +313,7 @@
               </div>
             </div>
             <div class="container">
-              <div class="mb-5" id="top-and-bottom"data-aos="fade-up" data-aos-delay="100">
+              <div class="mb-5" id="top-and-bottom" data-aos="fade-up" data-aos-delay="100">
                 <h4>Project  description</h4>
                 <p>
                   This is the final project "Different twins" for the course User Experience of DHDK, University of Bologna.
@@ -1209,8 +1210,26 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <!-- aos --> 
+  <script>
+    AOS.init ({
+      offset: 100,
+      duration: 1000,
+    });
+
+    // code:
+    document.querySelectorAll('#swiper')
+      .forEach((swiper) =>
+        swiper.addEventListener('load', () =>
+          AOS.refresh()
+          )
+      );
+  </script>
+
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
