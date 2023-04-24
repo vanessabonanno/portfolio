@@ -45,7 +45,7 @@ h2
 {
   font-family: Myfont;
   src: url(font/Myfont.otf);
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
 }
 
@@ -474,10 +474,10 @@ section {
   overflow: hidden;
 }
 
+
 #glance {
   background-color: #CEDFF5;
 }
-
 
 #glance a {
   color: #283F5C;
@@ -486,7 +486,7 @@ section {
 
 #glance a:hover {
   color: #5b7da8;
-  text-decoration: non;
+  text-decoration: none;
 }
 
 .section-bg {
@@ -513,12 +513,10 @@ section {
 }
 
 
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
-
   background-color: #fff;
   font-size: 85%;
   color: #283F5C;
@@ -603,7 +601,7 @@ section {
 }
 
 .facts .count-box span {
-  font-size: 48px;
+  font-size: 35px;
   line-height: 40px;
   display: block;
   font-weight: 700;
@@ -711,10 +709,7 @@ section {
   margin-top: 15px;
   margin-bottom: 15px;
   color: #283F5C;
-  /*font-family: Myfont;
-  src: url(font/Myfont.otf);
-  font-size: 30px;
-  font-weight: 600;*/
+  
   font-size: 22px;
   font-weight: 500;
 }
@@ -1065,14 +1060,11 @@ section {
   left:0;
 }
 
-
-
-/* AGGIUNTE da me*/
+/* added by me */
 .filters a {
   text-decoration: none;
   color: #283f5c4f;
   display: inline-block;
-  padding-left: 10px;
   padding-right: 10px;
   position: relative;
 }
