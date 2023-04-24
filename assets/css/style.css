@@ -401,69 +401,171 @@ h6
 
 */
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------
 #hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  width: 70%;
+  height: 80vh;
+  background-color: rgba(22, 30, 56, 0.8);
+  overflow: hidden;
+  position: relative;
 }
 
-#hero:before {
-  content: "";
-  background: #283f5cf4;
+#hero .carousel,
+#hero .carousel-inner,
+#hero .carousel-item,
+#hero .carousel-item::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#hero .carousel-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  top: 70px;
+  left: 50px;
+  right: 50px;
 }
 
-#hero .hero-container {
-  position: relative;
-  z-index: 2;
-  min-width: 300px;
+#hero .container {
+  text-align: center;
 }
 
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 56px;
+#hero h2 {
   color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 #hero p {
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
   color: #fff;
-  margin-bottom: 50px;
-  font-size: 26px;
-  font-family: 'Cousine', monospace;
 }
 
-#hero p span {
-  color: #fff;
-  padding-bottom: 4px;
+#hero .carousel-inner .carousel-item {
+  transition-property: opacity;
+  background-position: center top;
+}
+
+#hero .carousel-inner .carousel-item,
+#hero .carousel-inner .active.carousel-item-start,
+#hero .carousel-inner .active.carousel-item-end {
+  opacity: 0;
+}
+
+#hero .carousel-inner .active,
+#hero .carousel-inner .carousel-item-next.carousel-item-start,
+#hero .carousel-inner .carousel-item-prev.carousel-item-end {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#hero .carousel-control-next-icon,
+#hero .carousel-control-prev-icon {
+  background: none;
+  font-size: 30px;
+  line-height: 0;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.5);
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .carousel-control-next-icon:hover,
+#hero .carousel-control-prev-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#hero .carousel-indicators li {
+  cursor: pointer;
+  background: #fff;
+  overflow: hidden;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+#hero .carousel-indicators li.active {
+  opacity: 1;
+  background: #006fbe;
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #5b7da8;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  animation-delay: 0.8s;
+  background: #006fbe;
 }
 
-@media (min-width: 1024px) {
+#hero .btn-get-started:hover {
+  background: #007ed8;
+}
+
+@media (max-width: 992px) {
   #hero {
-    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  #hero .carousel-container {
+    top: 8px;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero h2 {
     font-size: 28px;
-    line-height: 36px;
   }
-*/
+}
 
+@media (min-width: 1024px) {
+
+  #hero .carousel-control-prev,
+  #hero .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: 120vh;
+  }
+}
+
+*/
 
 
 /*--------------------------------------------------------------
