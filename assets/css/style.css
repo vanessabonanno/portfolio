@@ -40,11 +40,15 @@ a:hover {
   cursor: url("cursor/minimal/link.cur"), auto;
 }
 
+@font-face {
+  font-family: Myfont;
+  src: url(font/Myfont.otf);
+}
+
 h1,
 h2
 {
   font-family: Myfont;
-  src: url(font/Myfont.otf);
   font-size: 45px;
   font-weight: 600;
 }
